@@ -1,0 +1,18 @@
+{
+  "name": "bmi_calculator",
+  "version": "1.00",
+  "description": "practice",
+  "main": "index.js",
+  "repository": "https://github.com/FacundoOs/bmi_calculator.git",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^4.12.1"
+  },
+  "dependencies": {
+    "superstatic": "^7.0.0"
+  },
+"scripts": {
+    "start": "superstatic src --port 3001",
+    "cy:open": "yarn start & cypress open"
+  }
+}
